@@ -9,7 +9,7 @@ Gaming Store Inventory Management System
 - Internet connection with a reasonable speed
 
 # Usage
-Access the (http://localhost/LMGamesStore/autentifikasi/login) file from via browser and (admin@gmail.com) as username and (admin) as password
+Access the (http://localhost/LMGamesStore/autentifikasi/login) file from via browser and "admin@gmail.com" as username and "admin" as password
 
 # Built With
 - PHP - Scripting language
