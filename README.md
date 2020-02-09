@@ -16,8 +16,8 @@ Access the (http://localhost/LMGamesStore/autentifikasi/login) file from via bro
 - MySQL - Database management system
 - HTML5 - Basic markup
 - CSS3 - Basic styling
-- Bootstrap 4.1.1 - Responsive framework
-- jQuery 3.3.1 - JS framework
+- Bootstrap - Responsive framework
+- jQuery - JS framework
 
 # Acknowledgments
 Inspired by many similar projects online
