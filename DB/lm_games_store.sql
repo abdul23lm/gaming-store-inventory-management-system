@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 29, 2018 at 08:09 AM
+-- Generation Time: Feb 09, 2020 at 07:55 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -55,8 +55,7 @@ INSERT INTO `lgs_produk` (`item_id`, `item_code`, `item_name`, `item_type`, `ite
 (35, 'LMGS-PS4-001', 'Detroit Become Human', 'PS 4', 42, 769000),
 (36, 'LMGS-PS4-002', 'Super Robot Wars SRW X', 'PS 4', 12, 769000),
 (37, 'LMGS-PS4-003', 'God of War', 'PS 4', 55, 789000),
-(38, 'LMGS-PS4-004', 'Yakuza 6: The Song of Life (Standard Edition)', 'PS 4', 59, 749000),
-(39, 'LMGS-PS4-005', 'Final Fantasy XV: Royal Edition', 'PS 4', 41, 699000);
+(38, 'LMGS-PS4-004', 'Yakuza 6: The Song of Life (Standard Edition)', 'PS 4', 59, 749000);
 
 -- --------------------------------------------------------
 
@@ -74,7 +73,7 @@ CREATE TABLE `user_lgs` (
 --
 
 INSERT INTO `user_lgs` (`email`, `password`) VALUES
-('abdul.16004@student.unsika.ac.id', 'unsika1');
+('admin@gmail.com', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -100,7 +99,7 @@ ALTER TABLE `user_lgs`
 -- AUTO_INCREMENT for table `lgs_produk`
 --
 ALTER TABLE `lgs_produk`
-  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
